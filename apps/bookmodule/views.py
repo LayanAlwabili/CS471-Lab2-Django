@@ -24,3 +24,25 @@ def viewbook(request, bookId):
     context = {'book': targetBook}
 
     return render(request, 'bookmodule/show.html', context)
+# ==========================================
+# Lab 4 - HTML and CSS Pages
+# ==========================================
+
+# Display the home page
+def lab4_index(request):
+    return render(request, 'bookmodule/lab4_index.html')
+
+
+# Display the list of books
+def lab4_list_books(request):
+    return render(request, 'bookmodule/list_books.html')
+
+
+# Display one book details
+def lab4_viewbook(request, bookId):
+    return render(request, 'bookmodule/one_book.html')
+
+
+# Display the About Us page
+def lab4_aboutus(request):
+    return render(request, 'bookmodule/aboutus.html')
