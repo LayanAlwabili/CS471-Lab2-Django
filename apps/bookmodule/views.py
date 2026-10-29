@@ -46,3 +46,15 @@ def lab4_viewbook(request, bookId):
 # Display the About Us page
 def lab4_aboutus(request):
     return render(request, 'bookmodule/aboutus.html')
+# Lab 5 - Task 1: HTML Links
+def lab5_links(request):
+    return render(request, 'bookmodule/lab5_links.html')
+# Lab 5 - Task 2: Text Formatting
+def lab5_formatting(request):
+    return render(request, 'bookmodule/lab5_formatting.html')
+# Lab 5 - Task 3: Nested Lists
+def lab5_listing(request):
+    return render(request, 'bookmodule/lab5_listing.html')
+# Lab 5 - Task 4: HTML Tables
+def lab5_tables(request):
+    return render(request, 'bookmodule/lab5_tables.html')

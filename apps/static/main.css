@@ -1,0 +1,95 @@
+/* Lab 5 - Task 1: Links Styling */
+
+body {
+    margin: 8px;
+}
+
+/* Common style for all links */
+a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+/* First link */
+.link1 {
+    background-color: lightgreen;
+    color: red;
+}
+
+/* Second link */
+.link2 {
+    background-color: #555555;
+    color: yellow;
+}
+
+/* Third link */
+.link3 {
+    background-color: black;
+    color: white;
+}
+
+/* Link states */
+a:visited {
+    text-decoration: underline;
+}
+
+a:hover {
+    background-color: orange;
+    color: blue;
+}
+
+a:active {
+    background-color: red;
+    color: white;
+}
+/* Lab 5 - Task 2: Text Formatting */
+
+#format-title {
+    background-color: #f5f5dc;
+    padding: 10px;
+    text-align: left;
+    color: green;
+}
+/* Lab 5 - Task 3: Nested Lists */
+
+#listing-title {
+    background-color: #5f9ea0;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Lab 5 - Task 4: HTML Tables */
+
+/* Table 1: Fruit Prices */
+#fruit-table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#fruit-table th,
+#fruit-table td {
+    border: 1px solid gray;
+    padding: 3px;
+}
+
+/* Table 2: Camelid Comparison */
+#camel-table {
+    border-collapse: collapse;
+    width: 75%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#camel-table th,
+#camel-table td {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+#camel-table img {
+    display: block;
+    margin: auto;
+}

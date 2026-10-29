@@ -25,4 +25,12 @@ urlpatterns = [
 
     # About Us page
     path('lab4/aboutus/', views.lab4_aboutus, name='books.aboutus'),
+    # Lab 5 - Task 1: HTML Links
+    path('html5/links', views.lab5_links, name='books.lab5_links'),
+    # Lab 5 - Task 2: Text Formatting
+    path('html5/text/formatting', views.lab5_formatting, name='books.lab5_formatting'),
+    # Lab 5 - Task 3: Nested Lists
+    path('html5/listing', views.lab5_listing, name='books.lab5_listing'),
+    # Lab 5 - Task 4: HTML Tables
+    path('html5/tables', views.lab5_tables, name='books.lab5_tables'),
 ]
