@@ -33,4 +33,6 @@ urlpatterns = [
     path('html5/listing', views.lab5_listing, name='books.lab5_listing'),
     # Lab 5 - Task 4: HTML Tables
     path('html5/tables', views.lab5_tables, name='books.lab5_tables'),
+    # Lab 6 - Task 1: Search Form
+    path('search', views.search_books, name='books.search'),
 ]
